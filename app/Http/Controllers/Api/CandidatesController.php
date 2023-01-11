@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 
 class CandidatesController extends Controller
 {
+    // tambahkan create pada skillset controller jika digunakan dalam 1 form
     public function store(Request $request)
     {
         // Mengecek validasi data inputan
